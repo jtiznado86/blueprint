@@ -11,7 +11,7 @@ variable "environment_name" {
 
 variable "cloudantnosqldb_plan" {
     description = "Plan for Cloudant database: lite or standard"
-    default="standard"
+    default="lite"
 }
 
 variable "cloudantnosqldb_location" {
@@ -21,7 +21,7 @@ variable "cloudantnosqldb_location" {
 
 variable "cloudobjectstorage_plan" {
     description = "Plan for Cloud Object Storage: lite or standard"
-    default="standard"
+    default="lite"
 }
 
 variable "cloudobjectstorage_location" {
